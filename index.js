@@ -6,7 +6,10 @@ app.use(express.json());
 
 app.get("/", (req, res) => {
     res.json({
-        message: "Tech-library-creation"
+    student : [{
+        name : "priya",
+        depart : "ece"
+    }]
     })
 })
 
