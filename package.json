@@ -1,0 +1,24 @@
+{
+  "name": "tech-server",
+  "version": "1.0.0",
+  "description": "tech library project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Priyadharshini-max/Tech-server.git"
+  },
+  "author": "Priya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Priyadharshini-max/Tech-server/issues"
+  },
+  "homepage": "https://github.com/Priyadharshini-max/Tech-server#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.14"
+  }
+}
