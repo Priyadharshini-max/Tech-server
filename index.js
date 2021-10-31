@@ -22,6 +22,9 @@ async function loadApp() {
         await mongo.connect();
         app.use(cors());
         app.use(express.json());
+        app.get("/", (req, res) => {
+            res.send({ "Message": "Success" })
+        })
         app.use("/auth", authRoute);
         app.use((req, res, next) => {
             const token = req.headers["access-token"];
