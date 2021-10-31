@@ -105,7 +105,7 @@ const service = {
                 subject: "Reset Your Password ",
                 html: `
         <p>You requested for password reset </p>
-        <h3> Click this <a href="http://localhost:3000/resetpassword/${token}" target="_blank" >Link</a> to reset your password.</h3>
+        <h3> Click this <a href="https://tech-library.netlify.app/resetpassword/${token}" target="_blank" >Link</a> to reset your password.</h3>
         `
             })
 
