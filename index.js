@@ -12,8 +12,8 @@ const allRoute = require("./Routes/allDate.route");
 const authRoute = require("./Routes/auth.route");
 const profileRoute = require("./Routes/profile.route");
 
-
-app.listen(process.env.PORT, () => {
+const port = process.env.PORT || 5000;
+app.listen(port, () => {
     console.log(`Connected to ${process.env.PORT} Server...`);
 });
 
