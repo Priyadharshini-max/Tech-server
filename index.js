@@ -15,7 +15,7 @@ async function loadApp() {
         await mongo.connect();
         app.use(cors());
         app.use(express.json());
-        app.get((req, res) => {
+        app.get("/", (req, res) => {
             res.send({ "message": "Successfully connected" });
         })
     }
